@@ -1,0 +1,60 @@
+.header__title{
+  color: #4B0082;
+  font-size: 50px;
+  margin: 50px;
+  text-decoration: underline;
+  text-decoration-color: #4B0082;
+  text-decoration-style: double;
+  display: inline-block;
+  border: solid;
+  border-color: yellow;
+  border-style: dotted;
+  border-width: 15px;
+  background-color: #A7F892;
+  font-style: oblique -16deg;
+}
+.header__text{
+ text-decoration-line: underline;
+ text-decoration-style: wavy;
+ text-decoration-color: red;
+ border: 1px solid yellow;
+ border-radius: 25px;
+ z-index: 3;
+ text-align: center;
+}
+* {
+    color: red;
+}
+.header__btn{
+  color: white;
+  font-weight: bold;
+  background-color: #FF00FF;
+  font-size: 14px;
+  font-style: italic;
+  font: sans-serif;
+}
+.body{
+  background-color: #0F8252;
+  
+}
+#header{
+  background-color: green;
+}
+body{
+  font-size: 40px;
+}
+button[name]{
+  width: 150px;
+}
+.header__title + .header__text{
+   color: yellow;
+}
+article > p{
+  color: red;
+}
+  main p{
+    color: blue;
+}
+ .header ~ p{
+    color: green;
+} 
