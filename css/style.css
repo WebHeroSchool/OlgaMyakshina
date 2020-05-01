@@ -37,6 +37,18 @@ body {
 	padding: 10px;
 	border-radius: 5px;
 	font-family: 'Pacifico', cursive;
+	position: relative;
+}
+
+.main-menu__open:before {
+	content: "";
+	position: absolute;
+	background-image: linear-gradient(to bottom, #fff 20%, transparent 21%, transparent 40%, 
+    #fff 41%, #fff 60%, transparent 61%, transparent 80%, #fff 81%);
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
 }
 
 .main-menu__open:focus + .main-menu__list {
